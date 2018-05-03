@@ -53,7 +53,10 @@ for e in range(epoches):
         total_loss += nd.sum(loss).asscalar()
     print("Epoach: %d, average loss: %f" % (e, total_loss/num_examples))
 
-
+# 比较真实模型与学得模型
+dense = net[0]
+print(true_w, dense.weight.data())
+print(true_b, dense.bias.data())
 
 
 
