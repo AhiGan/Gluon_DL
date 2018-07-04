@@ -11,17 +11,31 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/underfit_overfit$underfit_overfit.coverage" NAME="underfit_overfit Coverage Results" MODIFIED="1530266481571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/underfit_overfit$reg_gluon.coverage" NAME="reg_gluon Coverage Results" MODIFIED="1530266897181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/underfit_overfit$dropout.coverage" NAME="dropout Coverage Results" MODIFIED="1530608559537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/underfit_overfit$dropout_gluon.coverage" NAME="dropout_gluon Coverage Results" MODIFIED="1530615025452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/underfit_overfit$reg_gluon.coverage" NAME="reg_gluon Coverage Results" MODIFIED="1530603418940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reg_gluon.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reg_gluon.py">
+      <file leaf-file-name="dropout.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="346">
+              <caret line="105" column="51" lean-forward="true" selection-start-line="87" selection-end-line="105" selection-end-column="51" />
               <folding>
-                <element signature="e#25#56#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropout_gluon.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dropout_gluon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,6 +55,8 @@
       <list>
         <option value="$PROJECT_DIR$/underfit_overfit.py" />
         <option value="$PROJECT_DIR$/reg_gluon.py" />
+        <option value="$PROJECT_DIR$/dropout.py" />
+        <option value="$PROJECT_DIR$/dropout_gluon.py" />
       </list>
     </option>
   </component>
@@ -51,10 +67,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="66" />
+    <option name="x" value="384" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -97,7 +113,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reg_gluon">
+  <component name="RunManager" selected="Python.dropout_gluon">
+    <configuration name="dropout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="underfit_overfit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dropout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dropout_gluon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="underfit_overfit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dropout_gluon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="reg_gluon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="underfit_overfit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,9 +193,13 @@
     <list>
       <item itemvalue="Python.underfit_overfit" />
       <item itemvalue="Python.reg_gluon" />
+      <item itemvalue="Python.dropout" />
+      <item itemvalue="Python.dropout_gluon" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dropout_gluon" />
+        <item itemvalue="Python.dropout" />
         <item itemvalue="Python.reg_gluon" />
         <item itemvalue="Python.underfit_overfit" />
       </list>
@@ -161,20 +219,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="63" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="384" y="24" width="1440" height="803" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40248963" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39917696" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119444445" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.42291668" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.28055555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -194,13 +251,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/reg_gluon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/underfit_overfit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -215,18 +279,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-end-line="75" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg_gluon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
           <folding>
             <element signature="e#25#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reg_gluon.py">
+    <entry file="file://$PROJECT_DIR$/dropout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="346">
+          <caret line="105" column="51" lean-forward="true" selection-start-line="87" selection-end-line="105" selection-end-column="51" />
           <folding>
-            <element signature="e#25#56#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropout_gluon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
